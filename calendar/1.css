@@ -1,0 +1,91 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style:none;
+	font-size:12px;
+	font-family: "微软雅黑";
+}
+ul{
+	
+}
+ul li{
+	list-style:none;
+}
+#box{
+	width:310px;
+	height: 450px;
+	margin: 50px auto;
+	box-shadow:5px 5px 20px #888;
+	overflow: hidden;
+	padding:25px;
+	border:1px solid #344572;
+}
+#time1{
+	width:155px;
+	height: 35px;
+	color:#fff;
+	font-size: 35px;
+	line-height: 35px;	
+}
+#time2{
+	width:155px;
+	height: 35px;
+	line-height: 35px;
+	color: #598fff;
+}
+header{
+	height: 30px;
+	/*border: 1px solid #fff;*/
+}
+#time3{
+	width:125px;
+	line-height:30px;
+	float: left;
+	color: #d4d6da;
+	font-size: 14px;
+}
+#porn{
+	float: right;
+	width: 100px;
+}
+
+#porn span{
+	width:50px;
+	float: left;
+	text-align: center;
+	line-height:30px;
+	color: #d4d6da;
+	cursor: pointer;
+}
+#dayBox{
+	height: 38px;
+}
+#dayBox li{
+	width:44px;
+	height: 30px;
+	float:left;
+	/*text-align: center;*/
+	line-height:30px;
+	color: #d4d6da;
+}
+#dateBox li{
+	float: left;
+	width:40px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	color: #fff;
+	border: 1px solid #272c3d;
+	font-size: 16px;
+	
+}
+#dateBox li:hover{
+	border: 1px solid #fff;
+}
+#dateBox li.active{
+	background:#295dcc;
+	border: 1px solid #fff;
+}
+#dateBox li.gray{
+	color: #787f8d;
+}

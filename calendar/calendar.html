@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+
+</head>
+<body>
+	<div id="box"></div>
+<script src="jquery-1.11.1.js" type="text/javascript" charset="utf-8"></script>
+<script src="3.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+/*
+	如果引入的框架有ready，不管调用函数的js在head中还是在页面底部，都加上
+	$(function(){})
+	不然容易调用不到这个函数。
+*/
+$(function(){
+	$('#box').rili({
+		 weekDays: ['Dom', 'Seg', 'Ter', 'Qua', 'Qui', 'Sex', 'Sab']
+	});
+});
+//	{
+//		 weekDays: ['Dom', 'Seg', 'Ter', 'Qua', 'Qui', 'Sex', 'Sab']
+//	}
+</script>
+</body>
+</html>
